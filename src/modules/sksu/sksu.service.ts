@@ -26,7 +26,7 @@ export class SksuService {
   
     const bulkOps = updates.map((updateData) => ({
       updateOne: {
-        filter: { _id: updateData.id },
+        filter: { _id: updateData._id },
         update: {
           $set: {
             profilLulusan: updateData.profilLulusan,

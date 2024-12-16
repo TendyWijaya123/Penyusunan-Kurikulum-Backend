@@ -24,7 +24,7 @@ export class CreateSksuRequest{
 export class UpdateSksuRequest extends CreateSksuRequest{
   @IsString()
   @IsNotEmpty()
-  id: string;
+  _id: string;
 }
 
 export class UpdateManySksuRequest {
