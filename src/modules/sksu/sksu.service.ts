@@ -43,5 +43,9 @@ export class SksuService {
       await this.sksuModel.bulkWrite(bulkOps);
     }
   }
+
+  async deleteSksu(id:string){
+    await this.sksuModel.deleteOne({_id:id});
+  }
   
 }

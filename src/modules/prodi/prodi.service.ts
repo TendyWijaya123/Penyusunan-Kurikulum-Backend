@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Prodi } from 'src/schema/prodi.schema';
-import { CreateProdiRequest, UpdateProdiRequest } from './request/prodi.dto';
+import { CreateProdiRequest, UpdateProdiRequest } from './request/prodi.request';
 import { create } from 'domain';
 
 @Injectable()

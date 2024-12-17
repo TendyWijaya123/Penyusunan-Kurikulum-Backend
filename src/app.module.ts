@@ -6,6 +6,7 @@ import { RoleModule } from './modules/role/role.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { ProdiModule } from './modules/prodi/prodi.module';
 import { SksuModule } from './modules/sksu/sksu.module';
+import { CplKkniModule } from './modules/cpl-kkni/cpl-kkni.module';
 
 @Module({
   imports: [
@@ -13,7 +14,8 @@ import { SksuModule } from './modules/sksu/sksu.module';
     ProdiModule,
     RoleModule,
     AuthModule,
-    SksuModule
+    SksuModule,
+    CplKkniModule
   ],
   controllers: [AppController],
   providers: [AppService],

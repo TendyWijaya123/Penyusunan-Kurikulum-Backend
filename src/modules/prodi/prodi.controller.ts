@@ -1,6 +1,6 @@
 import { Body, Controller, Get, HttpCode, Param, Patch, Post } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { CreateProdiRequest, UpdateProdiRequest } from './request/prodi.dto';
+import { CreateProdiRequest, UpdateProdiRequest } from './request/prodi.request';
 import { ProdiService } from './prodi.service';
 
 @ApiTags('prodis')
