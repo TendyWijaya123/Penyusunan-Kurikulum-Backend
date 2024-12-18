@@ -7,6 +7,8 @@ import { AuthModule } from './modules/auth/auth.module';
 import { ProdiModule } from './modules/prodi/prodi.module';
 import { SksuModule } from './modules/sksu/sksu.module';
 import { IpteksModule } from './modules/ipteks/ipteks.module';
+import { AnalisisKonsideranModule } from './modules/analisisKonsideran/ak.module';
+import { CplKkniModule } from './modules/cpl-kkni/cpl-kkni.module';
 
 @Module({
   imports: [
@@ -15,7 +17,9 @@ import { IpteksModule } from './modules/ipteks/ipteks.module';
     RoleModule,
     AuthModule,
     SksuModule,
-    IpteksModule
+    IpteksModule,
+    AnalisisKonsideranModule,
+    CplKkniModule
   ],
   controllers: [AppController],
   providers: [AppService],

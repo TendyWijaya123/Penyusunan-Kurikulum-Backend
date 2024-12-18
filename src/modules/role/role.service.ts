@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Role } from 'src/schema/role.shema';
-import { CreateRoleRequest, UpdateRoleRequest } from './request/role.dto';
+import { CreateRoleRequest, UpdateRoleRequest } from './request/role.request';
 
 @Injectable()
 export class RoleService {
