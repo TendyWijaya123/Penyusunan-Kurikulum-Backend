@@ -9,6 +9,7 @@ import { SksuModule } from './modules/sksu/sksu.module';
 import { IpteksModule } from './modules/ipteks/ipteks.module';
 import { AnalisisKonsideranModule } from './modules/analisisKonsideran/ak.module';
 import { CplKkniModule } from './modules/cpl-kkni/cpl-kkni.module';
+import { VmtModule } from './modules/vmt/vmt.module';
 
 @Module({
   imports: [
@@ -19,7 +20,8 @@ import { CplKkniModule } from './modules/cpl-kkni/cpl-kkni.module';
     SksuModule,
     IpteksModule,
     AnalisisKonsideranModule,
-    CplKkniModule
+    CplKkniModule,
+    VmtModule
   ],
   controllers: [AppController],
   providers: [AppService],
