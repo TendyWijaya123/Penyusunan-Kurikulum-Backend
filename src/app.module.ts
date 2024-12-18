@@ -6,6 +6,8 @@ import { RoleModule } from './modules/role/role.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { ProdiModule } from './modules/prodi/prodi.module';
 import { SksuModule } from './modules/sksu/sksu.module';
+import { IpteksModule } from './modules/ipteks/ipteks.module';
+import { AnalisisKonsideranModule } from './modules/analisisKonsideran/ak.module';
 import { CplKkniModule } from './modules/cpl-kkni/cpl-kkni.module';
 import { VmtModule } from './modules/vmt/vmt.module';
 
@@ -16,6 +18,8 @@ import { VmtModule } from './modules/vmt/vmt.module';
     RoleModule,
     AuthModule,
     SksuModule,
+    IpteksModule,
+    AnalisisKonsideranModule,
     CplKkniModule,
     VmtModule
   ],
